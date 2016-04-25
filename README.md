@@ -45,3 +45,7 @@ Alternatively, you can `require('ghost-export')` and use it in your own scripts.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+545  brew install sqlcipher
+546  npm install -g sqlite3 --build-from-source --sqlite_libname=sqlcipher --sqlite=`brew --prefix`
+547  npm -g install .
